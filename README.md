@@ -80,14 +80,6 @@ For complete command-line arguments and deep architectural details, consult the 
 
 ---
 
-## 📊 Key Findings
-
-- **Best Overall Discriminative Model**: **AdaBoost** under Fair Reweighing achieved the highest discrimination ($\text{AUC} = 0.811$) while narrowing selection rate disparity across gender.
-- **Institutional Disparity (Affiliation)**: **SVM (Polynomial kernel)** achieved $\text{AUC} = 0.800$ with BGMMOCE mitigation.
-- **Algorithmic Compatibility**: AIF360 Reweighing requires sample weight support during `.fit()`; classifiers without native weight support (e.g. KNN, Gaussian Process) were systematically cataloged in the [Rejection Diagnostic Report](chkp/fairness_disparity_diagnostic_report%20WHY%20MODELS%20WERE%20REJECTED.md).
-
----
-
 ## 📄 License
 
 This repository is licensed under the [MIT License](LICENSE).
