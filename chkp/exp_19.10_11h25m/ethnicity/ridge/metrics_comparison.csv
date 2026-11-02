@@ -1,0 +1,5 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Ethnicity,ridge,ridge,BGMMOCE,BGMMOCE,0.4556,0.4556,0.2228,-0.3094,0.1179,0.6522,0.7895,0.75,0.8333,0.1765,1.2143,0.2308,0.1154,0.0038
+Ethnicity,ridge,ridge,biased,biased,0.4556,0.4556,0.425,-1.4981,0.4635,0.6957,0.8205,0.7619,0.8889,0.1176,1.1333,0.1538,0.0769,0.4731
+Ethnicity,ridge,fair_dir_ridge,disparate_impact_remover,biased,0.4722,0.4722,0.2609,-0.5333,0.2609,0.7391,0.85,0.7727,0.9444,0.0588,1.0625,0.0769,0.0385,0.0385
+Ethnicity,ridge,fair_reweighted_ridge,reweighing,biased,0.4722,0.4722,0.2609,-0.5333,0.2609,0.7391,0.85,0.7727,0.9444,0.0588,1.0625,0.0769,0.0385,0.0385

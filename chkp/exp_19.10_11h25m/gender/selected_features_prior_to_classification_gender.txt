@@ -1,0 +1,77 @@
+================================================================================
+MULTI-MODAL EARLY-FUSION: BEST FEATURES PRIOR TO CLASSIFICATION
+Experiment Bias:   GENDER
+Training Split:    BGMMOCE
+Total Features:    29
+================================================================================
+
+1. CLINICAL FEATURES (8 features - concatenated directly without selection):
+--------------------------------------------------------------------------------
+    1. clin_Age
+    2. clin_Weight
+    3. clin_Pack_Years
+    4. clin_T_stage
+    5. clin_N_stage
+    6. clin_M_stage
+    7. clin_Smoking_status
+    8. clin_Pleural_invasion
+
+2. BEST SELECTED RADIOMICS FEATURES (5 features selected via ANOVA + L1):
+--------------------------------------------------------------------------------
+    1. rad_exp_1_original_glszm_SizeZoneNonUniformity                -->  [Display: exp_glszm_SizeZoneNonUniformity]
+    2. rad_exp_1_original_ngtdm_Busyness                             -->  [Display: exp_ngtdm_Busyness]
+    3. rad_sqrt_1_original_glszm_GrayLevelNonUniformity              -->  [Display: sqrt_glszm_GrayLevelNonUniformity]
+    4. rad_wavelet_db4_1_original_firstorder_Skewness                -->  [Display: wavelet_db4_firstorder_Skewness]
+    5. rad_wavelet_db4_1_original_glcm_JointAverage                  -->  [Display: wavelet_db4_glcm_JointAverage]
+
+3. BEST SELECTED RNA-SEQ FEATURES (16 features selected via ANOVA + L1):
+--------------------------------------------------------------------------------
+    1. rna_BAG3
+    2. rna_C18orf25
+    3. rna_CELSR1
+    4. rna_DDAH1
+    5. rna_DUSP22
+    6. rna_FAM126B
+    7. rna_FBXO38
+    8. rna_G6PD
+    9. rna_HLTF
+   10. rna_MED21
+   11. rna_NCALD
+   12. rna_NOL6
+   13. rna_NUCB2
+   14. rna_PDCD4
+   15. rna_PPP2R2D
+   16. rna_RAB1A
+
+================================================================================
+ORDERED FUSED FEATURE VECTOR (Total: 29 features):
+================================================================================
+    1. [Clinical ] clin_Age                                                     (Display: clin_Age)
+    2. [Clinical ] clin_Weight                                                  (Display: clin_Weight)
+    3. [Clinical ] clin_Pack_Years                                              (Display: clin_Pack_Years)
+    4. [Clinical ] clin_T_stage                                                 (Display: clin_T_stage)
+    5. [Clinical ] clin_N_stage                                                 (Display: clin_N_stage)
+    6. [Clinical ] clin_M_stage                                                 (Display: clin_M_stage)
+    7. [Clinical ] clin_Smoking_status                                          (Display: clin_Smoking_status)
+    8. [Clinical ] clin_Pleural_invasion                                        (Display: clin_Pleural_invasion)
+    9. [Radiomics] rad_exp_1_original_glszm_SizeZoneNonUniformity               (Display: exp_glszm_SizeZoneNonUniformity)
+   10. [Radiomics] rad_exp_1_original_ngtdm_Busyness                            (Display: exp_ngtdm_Busyness)
+   11. [Radiomics] rad_sqrt_1_original_glszm_GrayLevelNonUniformity             (Display: sqrt_glszm_GrayLevelNonUniformity)
+   12. [Radiomics] rad_wavelet_db4_1_original_firstorder_Skewness               (Display: wavelet_db4_firstorder_Skewness)
+   13. [Radiomics] rad_wavelet_db4_1_original_glcm_JointAverage                 (Display: wavelet_db4_glcm_JointAverage)
+   14. [RNA-seq  ] rna_BAG3                                                     (Display: rna_BAG3)
+   15. [RNA-seq  ] rna_C18orf25                                                 (Display: rna_C18orf25)
+   16. [RNA-seq  ] rna_CELSR1                                                   (Display: rna_CELSR1)
+   17. [RNA-seq  ] rna_DDAH1                                                    (Display: rna_DDAH1)
+   18. [RNA-seq  ] rna_DUSP22                                                   (Display: rna_DUSP22)
+   19. [RNA-seq  ] rna_FAM126B                                                  (Display: rna_FAM126B)
+   20. [RNA-seq  ] rna_FBXO38                                                   (Display: rna_FBXO38)
+   21. [RNA-seq  ] rna_G6PD                                                     (Display: rna_G6PD)
+   22. [RNA-seq  ] rna_HLTF                                                     (Display: rna_HLTF)
+   23. [RNA-seq  ] rna_MED21                                                    (Display: rna_MED21)
+   24. [RNA-seq  ] rna_NCALD                                                    (Display: rna_NCALD)
+   25. [RNA-seq  ] rna_NOL6                                                     (Display: rna_NOL6)
+   26. [RNA-seq  ] rna_NUCB2                                                    (Display: rna_NUCB2)
+   27. [RNA-seq  ] rna_PDCD4                                                    (Display: rna_PDCD4)
+   28. [RNA-seq  ] rna_PPP2R2D                                                  (Display: rna_PPP2R2D)
+   29. [RNA-seq  ] rna_RAB1A                                                    (Display: rna_RAB1A)

@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / OS files
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+
+# Dataset folder (do not upload)
+dataset/
+
+# Backup and older/unrelated python files
+*_backup.py
+analysisv3_original_backup.py
+getResultsV2_backup.py
+plotClassFairness_backup.py
+anaylsis_external.py
+disparity_plot.py
+fairPatientLevelPlotV2.py
+getdifferentrocs.py
+getrocsv2.py
+plotPatientLevelFairness.py
+
+# Checkpoint folders to exclude
+chkp/archive_old_runs_FIRST/
+chkp/good up-to 0.81/
+chkp/exp_19.10_10h40m/
+
+# Exclude image files in chkp/
+chkp/**/*.png
+chkp/**/*.jpg
+chkp/**/*.jpeg
+chkp/**/*.svg
+chkp/**/*.gif
+chkp/**/*.bmp
+chkp/**/*.tiff
+chkp/*.png
+chkp/*.jpg
+chkp/*.jpeg
+chkp/*.svg
+chkp/*.gif
+
+# Exclude npy and pkl files in chkp/
+chkp/**/*.npy
+chkp/**/*.pkl
+chkp/*.npy
+chkp/*.pkl

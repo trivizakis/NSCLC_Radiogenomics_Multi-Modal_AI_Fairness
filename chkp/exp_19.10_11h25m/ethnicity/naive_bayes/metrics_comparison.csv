@@ -1,0 +1,7 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Ethnicity,naive_bayes,naive_bayes,BGMMOCE,BGMMOCE,0.4556,0.4556,0.4225,-1.4836,0.4381,0.5652,0.7059,0.75,0.6667,0.4118,1.7,0.4615,0.3558,0.2346
+Ethnicity,naive_bayes,naive_bayes,biased,biased,0.3667,0.3667,0.3472,-1.0407,0.341,0.6522,0.7895,0.75,0.8333,0.1765,1.2143,0.2308,0.1154,0.5308
+Ethnicity,naive_bayes,fair_dir_nb,disparate_impact_remover,biased,0.3444,0.3444,0.2323,-0.3654,0.2394,0.7391,0.85,0.7727,0.9444,0.0588,1.0625,0.0769,0.0385,0.35
+Ethnicity,naive_bayes,fair_eq_odds_nb,postprocessing,biased,0.3667,0.3667,0.3472,-1.0407,0.341,0.6522,0.7895,0.75,0.8333,0.1765,1.2143,0.2308,0.1154,0.5308
+Ethnicity,naive_bayes,fair_roc_nb,postprocessing,biased,0.3667,0.3667,0.3472,-1.0407,0.341,0.6522,0.7895,0.75,0.8333,0.1765,1.2143,0.2308,0.1154,0.5308
+Ethnicity,naive_bayes,fair_reweighted_nb,reweighing,biased,0.3667,0.3667,0.3469,-1.0389,0.3433,0.6522,0.7895,0.75,0.8333,0.1765,1.2143,0.2308,0.1154,0.3115

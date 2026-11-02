@@ -1,0 +1,53 @@
+================================================================================
+MULTI-MODAL EARLY-FUSION: BEST FEATURES PRIOR TO CLASSIFICATION
+Experiment Bias:   ETHNICITY
+Training Split:    BGMMOCE
+Total Features:    17
+================================================================================
+
+1. CLINICAL FEATURES (8 features - concatenated directly without selection):
+--------------------------------------------------------------------------------
+    1. clin_Age
+    2. clin_Weight
+    3. clin_Pack_Years
+    4. clin_T_stage
+    5. clin_N_stage
+    6. clin_M_stage
+    7. clin_Smoking_status
+    8. clin_Pleural_invasion
+
+2. BEST SELECTED RADIOMICS FEATURES (5 features selected via ANOVA + L1):
+--------------------------------------------------------------------------------
+    1. rad_exp_1_original_glrlm_RunLengthNonUniformity               -->  [Display: exp_glrlm_RunLengthNonUniformity]
+    2. rad_wavelet_rbio3.1_1_original_firstorder_Minimum             -->  [Display: wavelet_rbio3.1_firstorder_Minimum]
+    3. rad_wavelet_db6_1_original_firstorder_Skewness                -->  [Display: wavelet_db6_firstorder_Skewness]
+    4. rad_wavelet_db6_1_original_glcm_ClusterShade                  -->  [Display: wavelet_db6_glcm_ClusterShade]
+    5. rad_wavelet_db6_1_original_glszm_SmallAreaHighGrayLevelEmphasis  -->  [Display: wavelet_db6_glszm_SmallAreaHighGrayLevelEmphasis]
+
+3. BEST SELECTED RNA-SEQ FEATURES (4 features selected via ANOVA + L1):
+--------------------------------------------------------------------------------
+    1. rna_ABCA1
+    2. rna_DTX2
+    3. rna_HSPH1
+    4. rna_SEC61G
+
+================================================================================
+ORDERED FUSED FEATURE VECTOR (Total: 17 features):
+================================================================================
+    1. [Clinical ] clin_Age                                                     (Display: clin_Age)
+    2. [Clinical ] clin_Weight                                                  (Display: clin_Weight)
+    3. [Clinical ] clin_Pack_Years                                              (Display: clin_Pack_Years)
+    4. [Clinical ] clin_T_stage                                                 (Display: clin_T_stage)
+    5. [Clinical ] clin_N_stage                                                 (Display: clin_N_stage)
+    6. [Clinical ] clin_M_stage                                                 (Display: clin_M_stage)
+    7. [Clinical ] clin_Smoking_status                                          (Display: clin_Smoking_status)
+    8. [Clinical ] clin_Pleural_invasion                                        (Display: clin_Pleural_invasion)
+    9. [Radiomics] rad_exp_1_original_glrlm_RunLengthNonUniformity              (Display: exp_glrlm_RunLengthNonUniformity)
+   10. [Radiomics] rad_wavelet_rbio3.1_1_original_firstorder_Minimum            (Display: wavelet_rbio3.1_firstorder_Minimum)
+   11. [Radiomics] rad_wavelet_db6_1_original_firstorder_Skewness               (Display: wavelet_db6_firstorder_Skewness)
+   12. [Radiomics] rad_wavelet_db6_1_original_glcm_ClusterShade                 (Display: wavelet_db6_glcm_ClusterShade)
+   13. [Radiomics] rad_wavelet_db6_1_original_glszm_SmallAreaHighGrayLevelEmphasis (Display: wavelet_db6_glszm_SmallAreaHighGrayLevelEmphasis)
+   14. [RNA-seq  ] rna_ABCA1                                                    (Display: rna_ABCA1)
+   15. [RNA-seq  ] rna_DTX2                                                     (Display: rna_DTX2)
+   16. [RNA-seq  ] rna_HSPH1                                                    (Display: rna_HSPH1)
+   17. [RNA-seq  ] rna_SEC61G                                                   (Display: rna_SEC61G)

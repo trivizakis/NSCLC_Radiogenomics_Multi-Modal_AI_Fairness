@@ -1,0 +1,7 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Gender,svm_linear,svm_linear,BGMMOCE,BGMMOCE,0.6111,0.6111,0.1901,-0.1175,0.1526,0.7391,0.8333,0.8333,0.8333,0.1569,1.2353,0.0462,0.3981,0.4423
+Gender,svm_linear,svm_linear,biased,biased,0.5778,0.5778,0.2366,-0.3907,0.1532,0.6522,0.7778,0.7778,0.7778,-0.0686,0.9176,-0.3077,0.3462,0.5577
+Gender,svm_linear,fair_dir_svm_linear,disparate_impact_remover,biased,0.8556,0.8556,0.1519,0.1073,0.1954,0.7391,0.8333,0.8333,0.8333,-0.0686,0.9176,-0.2308,0.2596,0.2308
+Gender,svm_linear,fair_eq_odds_svm_linear,postprocessing,biased,0.5778,0.5778,0.2366,-0.3907,0.1532,0.7391,0.8421,0.8,0.8889,0.049,1.0588,-0.1538,0.4231,0.5577
+Gender,svm_linear,fair_roc_svm_linear,postprocessing,biased,0.5778,0.5778,0.2366,-0.3907,0.1532,0.5217,0.6207,0.8182,0.5,0.1961,1.5882,0.1385,0.3192,0.5577
+Gender,svm_linear,fair_reweighted_svm_linear,reweighing,biased,0.5889,0.5889,0.2325,-0.3664,0.1695,0.6522,0.7778,0.7778,0.7778,-0.0686,0.9176,-0.3077,0.3462,0.5192

@@ -1,0 +1,7 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Affiliation,mlp64,mlp64,BGMMOCE,BGMMOCE,0.4222,0.4222,0.2051,-0.2053,0.2018,0.7826,0.8718,0.8095,0.9444,0.0397,1.0446,-0.0909,0.2045,0.4307
+Affiliation,mlp64,mlp64,biased,biased,0.6667,0.6667,0.1844,-0.0841,0.1985,0.7826,0.8718,0.8095,0.9444,-0.1429,0.8571,-0.0909,-0.2121,0.4437
+Affiliation,mlp64,fair_dir_mlp64,disparate_impact_remover,biased,0.7556,0.7556,0.1751,-0.0293,0.2131,0.7391,0.85,0.7727,0.9444,-0.0714,0.9286,-0.0909,-0.0455,0.4242
+Affiliation,mlp64,fair_eq_odds_mlp64,postprocessing,biased,0.6667,0.6667,0.1844,-0.0841,0.1985,0.7826,0.8718,0.8095,0.9444,-0.1429,0.8571,-0.0909,-0.2121,0.4437
+Affiliation,mlp64,fair_roc_mlp64,postprocessing,biased,0.6667,0.6667,0.1844,-0.0841,0.1985,0.7826,0.8718,0.8095,0.9444,-0.1429,0.8571,-0.0909,-0.2121,0.4437
+Affiliation,mlp64,fair_reweighted_mlp64,reweighing,biased,0.6667,0.6667,0.1839,-0.0809,0.1977,0.7826,0.8718,0.8095,0.9444,-0.1429,0.8571,-0.0909,-0.2121,0.4437

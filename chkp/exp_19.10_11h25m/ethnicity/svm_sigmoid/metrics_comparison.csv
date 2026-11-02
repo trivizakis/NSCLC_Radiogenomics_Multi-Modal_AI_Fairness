@@ -1,0 +1,7 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Ethnicity,svm_sigmoid,svm_sigmoid,BGMMOCE,BGMMOCE,0.4222,0.4222,0.2199,-0.2923,0.0919,0.6087,0.7568,0.7368,0.7778,0.2353,1.3077,0.3077,0.1538,0.0346
+Ethnicity,svm_sigmoid,svm_sigmoid,biased,biased,0.4667,0.4667,0.2391,-0.4054,0.2211,0.6957,0.8205,0.7619,0.8889,0.1176,1.1333,0.1538,0.0769,0.4731
+Ethnicity,svm_sigmoid,fair_dir_svm_sigmoid,disparate_impact_remover,biased,0.3667,0.3667,0.2235,-0.3139,0.2146,0.7826,0.878,0.7826,1.0,0.0,1.0,0.0,0.0,0.35
+Ethnicity,svm_sigmoid,fair_eq_odds_svm_sigmoid,postprocessing,biased,0.4667,0.4667,0.2391,-0.4054,0.2211,0.6957,0.8205,0.7619,0.8889,0.1176,1.1333,0.1538,0.0769,0.4731
+Ethnicity,svm_sigmoid,fair_roc_svm_sigmoid,postprocessing,biased,0.4667,0.4667,0.2391,-0.4054,0.2211,0.6087,0.7568,0.7368,0.7778,0.2353,1.3077,0.3077,0.1538,0.4731
+Ethnicity,svm_sigmoid,fair_reweighted_svm_sigmoid,reweighing,biased,0.4222,0.4222,0.2267,-0.3328,0.1764,0.6957,0.8205,0.7619,0.8889,0.1176,1.1333,0.1538,0.0769,0.2538

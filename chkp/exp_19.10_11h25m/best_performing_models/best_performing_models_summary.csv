@@ -1,0 +1,49 @@
+Bias,Classifier,Display Name,Biased_AUC,Fair_AUC,BGMMOCE_AUC,Max_AUC,Qualifies (>0.70)
+affiliation,random_forest,Random Forest,0.644,0.689,0.433,0.689,False
+affiliation,logistic_regression,Logistic Regression,0.589,0.589,0.211,0.589,False
+affiliation,svm_rbf,SVM (RBF),0.533,0.533,0.278,0.533,False
+affiliation,svm_linear,SVM (Linear),0.622,0.622,0.378,0.622,False
+affiliation,svm_poly,SVM (Poly),0.744,0.733,0.8,0.8,True
+affiliation,svm_sigmoid,SVM (Sigmoid),0.367,0.367,0.367,0.367,False
+affiliation,gradient_boosting,Gradient Boosting,0.578,0.556,0.367,0.578,False
+affiliation,decision_tree,Decision Tree,0.6,0.567,0.361,0.6,False
+affiliation,adaboost,AdaBoost,0.622,0.5,0.5,0.622,False
+affiliation,naive_bayes,Naive Bayes,0.733,0.722,0.389,0.733,True
+affiliation,mlp16,MLP (16),0.678,0.678,0.389,0.678,False
+affiliation,mlp32,MLP (32),0.622,0.611,0.4,0.622,False
+affiliation,mlp64,MLP (64),0.667,0.667,0.422,0.667,False
+affiliation,mlp128,MLP (128),0.644,0.644,0.422,0.644,False
+affiliation,ridge,Ridge,0.611,0.672,0.433,0.672,False
+affiliation,sgd,SGD,0.656,0.611,0.389,0.656,False
+gender,random_forest,Random Forest,0.678,0.722,0.544,0.722,True
+gender,logistic_regression,Logistic Regression,0.389,0.656,0.611,0.656,False
+gender,svm_rbf,SVM (RBF),0.6,0.567,0.444,0.6,False
+gender,svm_linear,SVM (Linear),0.578,0.589,0.611,0.611,False
+gender,svm_poly,SVM (Poly),0.522,0.522,0.5,0.522,False
+gender,svm_sigmoid,SVM (Sigmoid),0.756,0.744,0.744,0.756,True
+gender,gradient_boosting,Gradient Boosting,0.733,0.678,0.494,0.733,True
+gender,decision_tree,Decision Tree,0.772,0.583,0.361,0.772,True
+gender,adaboost,AdaBoost,0.678,0.811,0.656,0.811,True
+gender,naive_bayes,Naive Bayes,0.606,0.594,0.422,0.606,False
+gender,mlp16,MLP (16),0.689,0.678,0.678,0.689,False
+gender,mlp32,MLP (32),0.6,0.667,0.678,0.678,False
+gender,mlp64,MLP (64),0.667,0.656,0.656,0.667,False
+gender,mlp128,MLP (128),0.667,0.689,0.633,0.689,False
+gender,ridge,Ridge,0.6,0.617,0.656,0.656,False
+gender,sgd,SGD,0.633,0.644,0.567,0.644,False
+ethnicity,random_forest,Random Forest,0.511,0.461,0.389,0.511,False
+ethnicity,logistic_regression,Logistic Regression,0.478,0.411,0.211,0.478,False
+ethnicity,svm_rbf,SVM (RBF),0.5,0.478,0.489,0.5,False
+ethnicity,svm_linear,SVM (Linear),0.5,0.5,0.478,0.5,False
+ethnicity,svm_poly,SVM (Poly),0.622,0.644,0.389,0.644,False
+ethnicity,svm_sigmoid,SVM (Sigmoid),0.467,0.422,0.422,0.467,False
+ethnicity,gradient_boosting,Gradient Boosting,0.567,0.55,0.411,0.567,False
+ethnicity,decision_tree,Decision Tree,0.489,0.389,0.667,0.667,False
+ethnicity,adaboost,AdaBoost,0.467,0.533,0.633,0.633,False
+ethnicity,naive_bayes,Naive Bayes,0.367,0.367,0.456,0.456,False
+ethnicity,mlp16,MLP (16),0.433,0.422,0.467,0.467,False
+ethnicity,mlp32,MLP (32),0.4,0.411,0.4,0.411,False
+ethnicity,mlp64,MLP (64),0.489,0.478,0.422,0.489,False
+ethnicity,mlp128,MLP (128),0.444,0.444,0.456,0.456,False
+ethnicity,ridge,Ridge,0.456,0.472,0.456,0.472,False
+ethnicity,sgd,SGD,0.467,0.456,0.444,0.467,False

@@ -1,0 +1,7 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Gender,adaboost,adaboost,BGMMOCE,BGMMOCE,0.6556,0.6556,0.1922,-0.1299,0.1625,0.7826,0.8718,0.8095,0.9444,0.1078,1.1294,0.2,-0.025,0.1308
+Gender,adaboost,adaboost,biased,biased,0.6778,0.6778,0.1954,-0.1485,0.1964,0.7391,0.8421,0.8,0.8889,0.049,1.0588,0.1231,-0.0635,0.1077
+Gender,adaboost,fair_dir_ada,disparate_impact_remover,biased,0.6333,0.6333,0.1958,-0.1506,0.1754,0.8261,0.9,0.8182,1.0,-0.0588,0.9412,0.0,-0.125,0.4038
+Gender,adaboost,fair_eq_odds_ada,postprocessing,biased,0.6778,0.6778,0.1954,-0.1485,0.1964,0.7391,0.8421,0.8,0.8889,0.049,1.0588,0.1231,-0.0635,0.1077
+Gender,adaboost,fair_roc_ada,postprocessing,biased,0.6778,0.6778,0.1954,-0.1485,0.1964,0.7391,0.8333,0.8333,0.8333,0.3824,1.7647,0.3231,0.5365,0.1077
+Gender,adaboost,fair_reweighted_ada,reweighing,biased,0.8111,0.8111,0.1882,-0.1063,0.1995,0.8261,0.8947,0.85,0.9444,-0.1765,0.8235,-0.0769,-0.2885,0.0077

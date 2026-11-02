@@ -1,0 +1,7 @@
+Bias,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+Affiliation,svm_linear,svm_linear,BGMMOCE,BGMMOCE,0.3778,0.3778,0.1733,-0.0184,0.0383,0.6957,0.8108,0.7895,0.8333,0.0794,1.102,-0.039,0.2305,0.3593
+Affiliation,svm_linear,svm_linear,biased,biased,0.6222,0.6222,0.1747,-0.0271,0.1494,0.8261,0.8947,0.85,0.9444,-0.0317,0.9643,-0.0909,0.0379,0.5043
+Affiliation,svm_linear,fair_dir_svm_linear,disparate_impact_remover,biased,0.5889,0.5889,0.1811,-0.0645,0.152,0.7391,0.85,0.7727,0.9444,-0.0714,0.9286,-0.0909,-0.0455,0.3615
+Affiliation,svm_linear,fair_eq_odds_svm_linear,postprocessing,biased,0.6222,0.6222,0.1747,-0.0271,0.1494,0.8261,0.8947,0.85,0.9444,-0.0317,0.9643,-0.0909,0.0379,0.5043
+Affiliation,svm_linear,fair_roc_svm_linear,postprocessing,biased,0.6222,0.6222,0.1747,-0.0271,0.1494,0.8261,0.8947,0.85,0.9444,-0.0317,0.9643,-0.0909,0.0379,0.5043
+Affiliation,svm_linear,fair_reweighted_svm_linear,reweighing,biased,0.6222,0.6222,0.1741,-0.0233,0.148,0.8261,0.8947,0.85,0.9444,-0.0317,0.9643,-0.0909,0.0379,0.5043
