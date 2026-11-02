@@ -18,7 +18,7 @@ Multi-modal predictive models in precision oncology risk entrenching or amplifyi
   3. `ethnicity`: Racial / ethnic group representation.
 - **Fairness Mitigation Strategies**:
   - **Biased Baseline (Red)**: Observational, unmitigated training distribution.
-  - **Fair Reweighing (Green)**: AIF360 sample reweighting based on subgroup marginals.
+  - **Best AIF360 fairness method (Green)**: AIF360 based on subgroup marginals.
   - **BGMMOCE (Blue)**: Balanced Gaussian Mixture Model Over-sampling with Clustering & Ensembling.
   - Pre-processing (Disparate Impact Remover), Post-processing (Reject Option Classification, Equalized Odds).
 
